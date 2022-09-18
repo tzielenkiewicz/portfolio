@@ -1,0 +1,43 @@
+LP,"Miejsce w specyfikacji, gdzie jest błąd",Co jest błędem,Jak powinno być
+1,"str.6 - ""wersje aplikacji""",Cztery wersje aplikacji klienckiej - wymienione są tylko 3,3
+2,"
+  str. 8
+  ""Wymagania funkcjonalne""","  W przypadku
+  braku połączenia sieciowego - za pomocą funkcji eksportu z części klienckiej
+  i importu w części serwerowej. Opis tej funkcjonalności zostanie
+  przedstawiony w dalszej części. - nie ma nic więcej w
+  dalszej części o tym",
+3,"str. 10, punkt 6: podpunkt 1 dotyczący czasu w menu bocznym","format gg:mm:ss nie pokrywa się z założeniem: godzina, minuta, sekunda, milisekunda",gg:mm:ss
+4,"str. 10, punkt 6: podpunkt 2 dotyczący numeracji zadań w menu bocznym",brak zapowiedzianego opisu zasady numeracji zadań,
+5,"str 14 , Temat 10 - kryteria oceny defektów
+",· defekty normalne (od 3 do 4 pkt) · defekty krytyczne (od 4 do 6 pkt)   defekty mają wspólny punkt 4,defekty krytyczne (od 5 do 6 pkt)
+6,"str 14 , Temat 10 - kryteria oceny defektów
+",Dodatkowo aplikacja przypisuje: · -2 punkty za zgłoszenie defektu  nie można przypisać punktu z minusem,odejmujemy pkt za nieprawidłowe zgłoszenie
+7.,Strona 10. Rozdział 6.1.,"Punkt 6. Przycisk „Zaraportuj defekt” ma być dostępny dla wszystkich trzech trybów, podczas gdy wcześniej napisano, że w trybie członka drużyny powinien być nieaktywny",tylko kapitan
+8,"Strona 6, Rozdział 3","Napisano, że w wersji demonstracyjnej powinno znajdować się jedno zadanie testowe. W rozdziale 9 „Wersja demonstracyjna…” opisano dwa zadania („Opis zadań zamieszczonych w tej wersji”)",2 zadania
+9,"str. 7 punkt 4 ""Wymagania środowiskowe""","błąd ortograficzny w wyrazie ""urzyta"" -> ""użyta""",użyta
+10,"str. 9 punky 5.2 ""Część serwerowa""","błąd w wyrazie ""generalna"" -> ""generalną""",generalną
+11,"str. 10 punkt 6.1 ""Część kliencka"", przycisk ""Zakończ""","zdanie rozpoczęte małą literą: "" można ją wykonać tylko …""",
+12,"str. 8 punkt 5.1 ""Część kliencka""","literówka w wyrazie ""W każdym zdaniu..."" -> "" zadaniu""",
+13,"str. 12 punkt 7.1 ""Wymagania wydajnościowe""",niezgodność czasu trwania odpowiedzi interfejsu,czas odpowiedzi 1s
+14,"str. 12 punkt 7.1 ""Wymagania wydajnościowe""",niewłaściwy format wielkości pliku -> rozmiar 2MB1,2MB
+15,str 12 7.2 Wymagania bezpieczeństwa,"jak przy dwóch znakach? login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak spec",login musi składać się z 4 do 8 znaków
+16,str 7 i 11 4 Wymagania środowiskowe/ 6.2 Część serwerowa,język nie jest zdefiniowany a w cz 6.2 jest mowa o java7 ,język niezdefiniowany
+17,str 12,Co to właściwie za wzór?,wzór = lipa
+18,"str. 8 ""część kliencka""","Aplikacja nie może utracić danych w przypadku niespodziewanego jej zamknięcia. Kopia zapasowa ma być tworzona po każdorazowym kliknięciu w przycisk “Znalazłem defekt”. - brak informacji czy ""kopia zapasowa"" jest jedyną możliwością utrzymania danych",niespodziewane zamknięcie to inny proces niż tworzenie kopii zapasowej
+19,str 10/11,"brak w opisie ""status połączenia""",
+20,str 10/11,nazwy menu bocznego w opisie różnią się od tych w schemacie opis problemu/opis zadania,Opis zadania
+21,str 10/11,nazwy menu bocznego w opisie różnią się od tych w schemacie zaproponuj defekt/znalazłem defekt,Zaraportuj defekt
+22,Strona 10. Rozdział 6.1.,"Punkt 5. Przyciski nawigacyjne „Następne” i „Poprzednie” umożliwiają przeniesienie się do ODPOWIEDNIO bieżącego, następnego i poprzedniego zadania. Opisano dwa przyciski i trzy akcje.",„Następne” i „Poprzednie”
+23,str 13 7.2 Wymagania bezpieczeństwa,część serwerowa musi posiadać możliwość tworzenia kopii zapasowej raportu zbiorczego - to nie powinno tu być,
+24,str 9 i 14 5.2 Część serwerowa/ 10 Kryteria oceny defektów,"brak informacji jak to ma działać, skąd dane, w jaki sposób mają być punkty przyznawane, jak to ma być oceniane?;Automatycznie oceniać poprawność zaraportowanych defektów w raportach z zadań przesłanych przez zawodników/drużyny",
+25,str 5 i str 13 8. Instalacja aplikacji ,sprzeczne informacje co do  zainstalowania aplikacji MrBuggy 3 ,brak instalatora
+26,"str. 7 punkt 4 ""Wymagania środowiskowe""","3 systemy operacyje, a wymienione są tylko 2",2
+27,"str.7 ""Wymagania środowiskowe""",Część serwerowa: Windows 7- powinna być wersja serwerowa a nie kliencka (i będą 3 systemy operacyjne :)),jest dobrze
+28,Strona 11. Pod ostatnim podpunktem,Okno aplikacji powinno… być estetyczne. Co to znaczy?,
+29,Strona 13. Rozdział 7.2.,"„Konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części”. Hasło jest prawidłowe lub nieprawidłowe. Koniec, kropka.",Konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+30,Strona 13. Rozdział 7.2.,„Tokeny do konta mają być generowane losowo” Wcześniej nigdzie nie wspomniano o tokenach.,
+31,strona 6 ,wersja aplikacji MrBuggy 2015/MrBuggy 3,MrBuggy 3
+32,"str 13 , drugi wiersz",format zaszyfrowania,
+33,Strona 11. Pod ostatnim podpunktem,„W oknie aplikacji musi się znaleźć ikona MrBuggy3” A co to za ikona? Powinno być precyzyjniej.,ładna
+34,Strona 12. Rozdział 7.2.,Punkt 4. „Login nie może zawierać… polskich znaków dialektycznych.” Prawidłowe sformułowanie brzmi „znaków diakrytycznych”.,diakrytycznych
