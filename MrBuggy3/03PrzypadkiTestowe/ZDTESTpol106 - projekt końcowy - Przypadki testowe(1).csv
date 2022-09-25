@@ -1,0 +1,33 @@
+TCID,Id wymagania,Tytuł,Warunki wstępne,Opis kroków,Oczekiwany rezultat
+1,30,Sprawdzenie czy “Menu boczne” jest umiejscowione po prawej stronie okna aplikacji,Uruchamiam aplikację.,"Sprawdzam gdzie jest ""Menu boczne""","""Menu boczne po prawej stronie"""
+2,29,Konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła.,"Uruchom aplikację z utworzonem kontem, kliknij ""Zaloguj"".",1. Wprowadź login.,"Pole ""Login"" zostaje uzupełnione."
+,,,,2. Wprowadź hasło zawierające błąd po raz pierwszy.,Wyświetla się komunikat o wpisaniu błędnego hasła.
+,,,,3. Wprowadź hasło zawierające błąd po raz drugi.,Wyświatla się komunikat o wpisaniu błędnego hasła.
+,,,,4. Wprowadź hasło zawierające błąd po raz trzeci.,Wyświetala się komunikat o trzykrotnym wpisaniu błędnego hasła z informacją o zablokowaniu konta na 3 minuty.
+3,25,"Rozpakowane archiwum musi zawierać plik wykonawczy, który uruchamia aplikację oraz wszystkie niezbędne biblioteki i zasoby.","1 pobrany, aktualny plik zip",1 rozpakuj plik przy użyciu popularnego programu np 7.zip,
+,,,,2 sprawdź czy zawiera plik wykonawczy,tak zawiera
+,,,,3 sprawdz czy zawiera niezbędne biblioteki,tak zawiera
+,,,,4 sprawdź czy zawiera niezbędne zasoby,"tak, zawiera wszystkie"
+,,,,5 zainstaluj aplikację,
+,,,,6 uruchom aplikację,"uruchomiona, działająca aplikacja"
+4,22,Zakończ wprowadzanie zadań,w uruchomionej wcześniej aplikacji wypełnij zadania,"1. kliknij przycisk ""Zakończ""",wyświetli się komunikat potwierdzający chęć zakończenia zadań - T/N
+,,,,2. wybierz N,powrót do rozwiązywania zadań
+,,,,"3. ponownie kliknij przycisk ""Zakończ""",wyświetli się komunikat potwierdzający chęć zakończenia zadań - T/N
+,,,,4. wybierz T,użytkownik zakończy wprowadzanie zadań a dane zostaną przesłane do oceny
+5,16,"Sprawdzenie funkcjonalności pola ""Lista zadań""",uruchomiona aplikacja,"1. klikam w pole ""Lista zadań""",Rozwija się lista zadań
+,,,,2. wybieram losowo 1 konkretne zadanie,1 zadanie się otwiera
+,,,,"3. wybieram losowo 2 zadanie i sprawdzam, czy zadanie się przełączy",2 zadanie się otwiera
+,,,,"4. wybieram losowo 3 zadanie i sprawdzam, czy zadanie się przełączy",3 zadanie się nie otwiera
+6,13,Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss),"Otwarty folder z rozpakowanym archiwum z aplikacją ""MrBuggy 3""",1. Uruchom plik wykonawyczy,Otworzenie się aplikacji
+,,,,2. Uruchom rundę,"Pole ""Czas"" zaczyna odliczać pozostały czas w formacie gg:mm:ss do końca aktywnej rundy"
+7,9,"Utwórz hasło składające się z minimum 20 znaków, w tym mała i wielka litera, cyfra oraz znak specjalny","Uruchom aplikację, kliknij ""Utwórz konto""","1. wprowadź hasło składające się z różnej wielkości liter ,cyfr i znaków specjalnych, nie przekraczające 20 znaków",Pojawia się komunikat o błędzie
+,,,,2. wprowadź hasło składające się z większej ilosci znaków niż 20,"Konto zostało utworzone, brak informacji o błędzie"
+8,5,Jest możliwe wyświetlenie 15 zadań,Aplikacja MrBuggy3 otwarta na stronie logowania,"Wpisz poprawny, istniejący login",
+,,,,Wpisz poprawne hasło,
+,,,,Kliknij „zaloguj”,Przejście do strony głównej wersji klienckiej aplikacji
+,,,,Kliknij przycisk „rozpocznij”,Pojawia się pierwsze zadanie
+,,,,Kliknij przycisk „następne”,Pojawia się drugie zadanie
+,,,,Kliknij przycisk „następne” jeszcze 13 razy,Pojawia się 15 zadanie
+9,7,Utwórz login we właściwym formacie,Strona utworzenia konta otwarta,"1. Wprowadź login składający się z 4-8 znaków i musi zawierać jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny",komunikat o prawidłowym formacie loginu
+10,7,Próba utworzenia login w niewłaściwym formacie składajaca się z samych liter z niewłaściwą ilością znaków,Strona utworzenia konta otwarta,1. Wprowadź login składający się z mniej niż 4 lub więcej niż 8 znaków składający się z samych liter,komunikat o nieprawidłowym formacie loginu
+11,7,"Próba utworzenia login w niewłaściwym formacie składająca się z z dużych i małych liter, znaków specjalnych i cyfr, z niewłaściwą ilością znaków",Strona utworzenia konta otwarta,"1.Wprowadź login składający się z mniej niż 4 lub więcej niż 8 znaków i musi zawierać jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny",komunikat o nieprawidłowym formacie loginu
