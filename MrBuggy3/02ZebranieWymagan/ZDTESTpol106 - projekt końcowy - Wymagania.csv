@@ -1,0 +1,36 @@
+ID, Str,Wymaganie w oparciu o specyfikację
+1,7,Podział na aplikację kliencką i serwerową
+2,6,"3 wersje aplikacji klienckiej: demonstarcyjna, końcowa, publiczna "
+3,8,"Tryby: w kategorii drużynowej: kapitan, członek; w kat indywidualnej: zawodnik"
+4,8,W każdym zdaniu ma być dokładnie jeden defekt
+5,8,Wersja publiczna zawiera nie mniej niż 15 zadań
+6,9/10,"Kopia zapasowa ma być tworzona po każdorazowym kliknięciu w przycisk “Zaraportuj defekt” po kliknięciu tego przycisku
+tworzona jest kopia zapasowa z aktualnym stanem aplikacji (w celu
+zachowania postępu użytkownika w przypadku awarii) oraz wysyłany jest
+raport defektu do części serwerowej aplikacji."
+7,12,"login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"
+8,12,login nie może zawierać białych znaków ani polskich znaków diakrytycznych
+9,12,"hasło musi składać się z co najmniej 20 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę, jeden znak specjalny"
+10,8,Nie można zmienić trybu pracy w trakcie jej działania.
+11,8,W trybie członka drużyny możliwość raportowania defektów jest zablokowana
+12,9,Kolejność zadań wyświetlanych w części klienckiej powinna być losowa
+13,10,Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss)
+14,10,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”
+15,10,Pole “Opis zadania” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie
+16,10,Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami.
+17,10,"Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone muszą się odznaczać innym kolorem."
+18,13,Przełączenie między zadaniami nie może być dłuższa niż 1 sec.
+19,10,Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio następnego i poprzedniego zadania.
+20,10,Przycisk “Zaraportuj defekt” - pozwala na zaraportowanie defektu aktualnie wyświetlanego w oknie “Zadania”
+21,10,Przycisk “Zakończ” - zakończenie pracy nad wszystkimi zadaniami i wysłanie odpowiedzi do oceny. Nie da się cofnąć tej czynności. można ją wykonać tylko raz.
+22,10,"Przycisk “Zakończ”  Aby uniknąć pomyłek użytkownik musi potwierdzić chęć wykonania tej
+czynności"
+23,13,Nie jest wymagany instalator aplikacj
+24,13,"MrBuggy 3 ma być aplikacją przenośną, która ma być dostarczona w postaci archiwum “zip”"
+25,13,"Rozpakowane archiwum musi zawierać plik wykonawczy, który uruchamia aplikację oraz wszystkie niezbędne biblioteki i zasoby."
+26,9,W przypadku utraty połączenia sieciowego użytkownik powinien mieć dalszą możliwość wykonywania wszystkich czynności w aplikacji
+27,11,Okno aplikacji powinno mieścić się w całości na ekranie monitora o rozdzielczości 1024x768
+28,10,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim"
+29,13,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+30,10,“Menu boczne” ułożone po prawej stronie
+31,,W oknie aplikacji musi się znaleźć ikona MrBuggy 3
