@@ -1,0 +1,138 @@
+{
+  "id": "8e6baa30-8c51-49d6-89b2-ffe9927ba275",
+  "version": "2.0",
+  "name": "j4u",
+  "url": "http://test.ukrainianinpoland.pl",
+  "tests": [{
+    "id": "0d355d40-d058-4087-825d-8078e766f807",
+    "name": "wrongTranslation",
+    "commands": [{
+      "id": "55b127ff-9d22-4b9a-b034-3dfa0408bbfe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d242a764-d181-48b2-a989-1cd5361e7b18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbb04082-2f2f-4b6c-8a54-2cf4fdd2ed66",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Regulamin",
+      "targets": [
+        ["linkText=Regulamin", "linkText"],
+        ["css=.md\\3A col-span-1:nth-child(2) > .px-4:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Regulamin')]", "xpath:link"],
+        ["xpath=//a[@href='http://test.ukrainianinpoland.pl/ua/storinky/6']", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Regulamin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e46dd9b0-30d3-42a5-98d0-aad8bd4b65c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > div > .w-8",
+      "targets": [
+        ["css=.flex > div > .w-8", "css:finder"],
+        ["xpath=//img[@alt='ua']", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aafdb42b-424d-4bb1-8d19-a974558cd917",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block:nth-child(3) .ml-2",
+      "targets": [
+        ["css=.block:nth-child(3) .ml-2", "css:finder"],
+        ["xpath=//a[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d27f359-2a46-4793-8bab-90cfa708e84c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Regulamin",
+      "targets": [
+        ["linkText=Regulamin", "linkText"],
+        ["css=.md\\3A col-span-1:nth-child(2) > .px-4:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Regulamin')]", "xpath:link"],
+        ["xpath=//a[@href='http://test.ukrainianinpoland.pl/ru/stranitsy/6']", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Regulamin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2361279b-a0b0-43bf-a7b5-3429296db3f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fill-current",
+      "targets": [
+        ["css=.fill-current", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e44dfa1b-32e7-4e5d-9b40-6bb90a59bcaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block:nth-child(4) .ml-2",
+      "targets": [
+        ["css=.block:nth-child(4) .ml-2", "css:finder"],
+        ["xpath=//a[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbefee77-8862-40b9-9a0f-1ef040b80f9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Polityka prywatności",
+      "targets": [
+        ["linkText=Polityka prywatności", "linkText"],
+        ["css=.md\\3A col-span-1:nth-child(2) > .px-4:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Polityka prywatności')]", "xpath:link"],
+        ["xpath=//a[@href='http://test.ukrainianinpoland.pl/en/pages/5']", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Polityka prywatności')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f27259dd-422b-41a5-9242-147dc8403c5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > div > .w-8",
+      "targets": [
+        ["css=.flex > div > .w-8", "css:finder"],
+        ["xpath=//img[@alt='en']", "xpath:img"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1167f2df-1d60-4303-bcc7-c63ac2b76b20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block:nth-child(1) > .flex",
+      "targets": [
+        ["css=.block:nth-child(1) > .flex", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "abd0c11b-48d6-4b87-997c-e8562871a865",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://test.ukrainianinpoland.pl/"],
+  "plugins": []
+}
